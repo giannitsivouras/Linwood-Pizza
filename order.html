@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fortlee Pizzeria - Order Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <h1 class="logo">Fortlee Pizzeria</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="order.html">Order Online</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <span>&#9776;</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Order Content -->
+  <main>
+    <section class="order">
+      <div class="container">
+        <h2>Order Your Pizza</h2>
+        <form id="order-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" required />
+
+          <label for="address">Delivery Address:</label>
+          <input type="text" id="address" required />
+
+          <label for="pizza">Choose your pizza:</label>
+          <select id="pizza" required>
+            <option value="">Select a pizza</option>
+            <option value="margherita">Pizza Margherita</option>
+            <option value="pepperoni">Pepperoni Pizza</option>
+            <option value="veggie">Veggie Pizza</option>
+          </select>
+
+          <button type="submit" class="btn">Submit Order</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Fortlee Pizzeria. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
