@@ -79,9 +79,10 @@ section {
     margin-bottom: 1rem;
 }
 .about,
-.menu,
+.menu-category,
 .schedule,
-.order {
+.order,
+.center {
     text-align: center;
 }
 .menu-items {
@@ -91,9 +92,9 @@ section {
 }
 .menu-item {
     background: #f9f9f9;
-    margin: 1rem;
+    margin: 0.5rem 0;
     padding: 1rem;
-    width: 300px;
+    width: 250px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -129,7 +130,28 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
-
+.italic {
+    font-style: italic;
+}
+.menu-category {
+    margin-bottom: 2rem;
+}
+.category-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 2rem 0;
+}
+.phone-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #f66138;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     nav .nav-links {
