@@ -145,6 +145,9 @@ footer {
 .italic {
     font-style: italic;
 }
+.underline {
+    text-decoration: underline;
+}
 .menu-category {
     margin-bottom: 2rem;
 }
